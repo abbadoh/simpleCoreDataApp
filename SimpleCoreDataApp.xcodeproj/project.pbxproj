@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		50A2B8AC1C6CA6C500053F2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2B8AB1C6CA6C500053F2C /* main.m */; };
 		50A2B8AF1C6CA6C500053F2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2B8AE1C6CA6C500053F2C /* AppDelegate.m */; };
-		50A2B8B21C6CA6C500053F2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2B8B11C6CA6C500053F2C /* ViewController.m */; };
 		50A2B8B51C6CA6C500053F2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A2B8B31C6CA6C500053F2C /* Main.storyboard */; };
-		50A2B8B81C6CA6C500053F2C /* SimpleCoreDataApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50A2B8B61C6CA6C500053F2C /* SimpleCoreDataApp.xcdatamodeld */; };
 		50A2B8BA1C6CA6C500053F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A2B8B91C6CA6C500053F2C /* Assets.xcassets */; };
 		50A2B8BD1C6CA6C500053F2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A2B8BB1C6CA6C500053F2C /* LaunchScreen.storyboard */; };
+		50A2B8CE1C6CAA7E00053F2C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2B8CD1C6CAA7E00053F2C /* TableViewController.m */; };
+		50A2B8D21C6CADD300053F2C /* PersistenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2B8D11C6CADD300053F2C /* PersistenceController.m */; };
+		50A2B8D61C6DF86500053F2C /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2B8D51C6DF86500053F2C /* NetworkManager.m */; };
+		50A2B8D91C6DF89E00053F2C /* NotesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A2B8D81C6DF89E00053F2C /* NotesManager.m */; };
+		50FD5FD71C6E013E0099DEFA /* SimpleCoreDataApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50FD5FD51C6E013E0099DEFA /* SimpleCoreDataApp.xcdatamodeld */; };
+		50FD5FDC1C6E017A0099DEFA /* Note+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FD5FD91C6E017A0099DEFA /* Note+CoreDataProperties.m */; };
+		50FD5FDD1C6E017A0099DEFA /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FD5FDB1C6E017A0099DEFA /* Note.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +26,23 @@
 		50A2B8AB1C6CA6C500053F2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50A2B8AD1C6CA6C500053F2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50A2B8AE1C6CA6C500053F2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		50A2B8B01C6CA6C500053F2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		50A2B8B11C6CA6C500053F2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		50A2B8B41C6CA6C500053F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		50A2B8B71C6CA6C500053F2C /* SimpleCoreDataApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleCoreDataApp.xcdatamodel; sourceTree = "<group>"; };
 		50A2B8B91C6CA6C500053F2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50A2B8BC1C6CA6C500053F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50A2B8BE1C6CA6C500053F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A2B8CC1C6CAA7E00053F2C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		50A2B8CD1C6CAA7E00053F2C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		50A2B8D01C6CADD300053F2C /* PersistenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersistenceController.h; path = CoreData/PersistenceController.h; sourceTree = "<group>"; };
+		50A2B8D11C6CADD300053F2C /* PersistenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersistenceController.m; path = CoreData/PersistenceController.m; sourceTree = "<group>"; };
+		50A2B8D41C6DF86500053F2C /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkManager.h; path = Network/NetworkManager.h; sourceTree = "<group>"; };
+		50A2B8D51C6DF86500053F2C /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetworkManager.m; path = Network/NetworkManager.m; sourceTree = "<group>"; };
+		50A2B8D71C6DF89E00053F2C /* NotesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesManager.h; sourceTree = "<group>"; };
+		50A2B8D81C6DF89E00053F2C /* NotesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesManager.m; sourceTree = "<group>"; };
+		50FD5FD61C6E013E0099DEFA /* SimpleCoreDataApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleCoreDataApp.xcdatamodel; sourceTree = "<group>"; };
+		50FD5FD81C6E017A0099DEFA /* Note+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Note+CoreDataProperties.h"; path = "CoreData/Note+CoreDataProperties.h"; sourceTree = "<group>"; };
+		50FD5FD91C6E017A0099DEFA /* Note+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Note+CoreDataProperties.m"; path = "CoreData/Note+CoreDataProperties.m"; sourceTree = "<group>"; };
+		50FD5FDA1C6E017A0099DEFA /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Note.h; path = CoreData/Note.h; sourceTree = "<group>"; };
+		50FD5FDB1C6E017A0099DEFA /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Note.m; path = CoreData/Note.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				50A2B8A91C6CA6C500053F2C /* SimpleCoreDataApp */,
+				50A2B8AA1C6CA6C500053F2C /* Supporting Files */,
 				50A2B8A81C6CA6C500053F2C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,14 +78,17 @@
 			children = (
 				50A2B8AD1C6CA6C500053F2C /* AppDelegate.h */,
 				50A2B8AE1C6CA6C500053F2C /* AppDelegate.m */,
-				50A2B8B01C6CA6C500053F2C /* ViewController.h */,
-				50A2B8B11C6CA6C500053F2C /* ViewController.m */,
+				50A2B8C41C6CA9B800053F2C /* CoreData */,
+				50A2B8D31C6DF7D900053F2C /* Network */,
+				50A2B8D71C6DF89E00053F2C /* NotesManager.h */,
+				50A2B8D81C6DF89E00053F2C /* NotesManager.m */,
+				50A2B8CC1C6CAA7E00053F2C /* TableViewController.h */,
+				50A2B8CD1C6CAA7E00053F2C /* TableViewController.m */,
 				50A2B8B31C6CA6C500053F2C /* Main.storyboard */,
 				50A2B8B91C6CA6C500053F2C /* Assets.xcassets */,
+				50FD5FD51C6E013E0099DEFA /* SimpleCoreDataApp.xcdatamodeld */,
 				50A2B8BB1C6CA6C500053F2C /* LaunchScreen.storyboard */,
 				50A2B8BE1C6CA6C500053F2C /* Info.plist */,
-				50A2B8B61C6CA6C500053F2C /* SimpleCoreDataApp.xcdatamodeld */,
-				50A2B8AA1C6CA6C500053F2C /* Supporting Files */,
 			);
 			path = SimpleCoreDataApp;
 			sourceTree = "<group>";
@@ -80,6 +99,37 @@
 				50A2B8AB1C6CA6C500053F2C /* main.m */,
 			);
 			name = "Supporting Files";
+			path = SimpleCoreDataApp;
+			sourceTree = "<group>";
+		};
+		50A2B8C41C6CA9B800053F2C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				50A2B8CF1C6CADA100053F2C /* ManagedObjects */,
+				50A2B8D01C6CADD300053F2C /* PersistenceController.h */,
+				50A2B8D11C6CADD300053F2C /* PersistenceController.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		50A2B8CF1C6CADA100053F2C /* ManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				50FD5FD81C6E017A0099DEFA /* Note+CoreDataProperties.h */,
+				50FD5FD91C6E017A0099DEFA /* Note+CoreDataProperties.m */,
+				50FD5FDA1C6E017A0099DEFA /* Note.h */,
+				50FD5FDB1C6E017A0099DEFA /* Note.m */,
+			);
+			name = ManagedObjects;
+			sourceTree = "<group>";
+		};
+		50A2B8D31C6DF7D900053F2C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				50A2B8D41C6DF86500053F2C /* NetworkManager.h */,
+				50A2B8D51C6DF86500053F2C /* NetworkManager.m */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +203,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50A2B8B81C6CA6C500053F2C /* SimpleCoreDataApp.xcdatamodeld in Sources */,
-				50A2B8B21C6CA6C500053F2C /* ViewController.m in Sources */,
+				50FD5FDD1C6E017A0099DEFA /* Note.m in Sources */,
+				50A2B8D61C6DF86500053F2C /* NetworkManager.m in Sources */,
+				50FD5FD71C6E013E0099DEFA /* SimpleCoreDataApp.xcdatamodeld in Sources */,
+				50A2B8D91C6DF89E00053F2C /* NotesManager.m in Sources */,
+				50A2B8D21C6CADD300053F2C /* PersistenceController.m in Sources */,
+				50A2B8CE1C6CAA7E00053F2C /* TableViewController.m in Sources */,
+				50FD5FDC1C6E017A0099DEFA /* Note+CoreDataProperties.m in Sources */,
 				50A2B8AF1C6CA6C500053F2C /* AppDelegate.m in Sources */,
 				50A2B8AC1C6CA6C500053F2C /* main.m in Sources */,
 			);
@@ -305,16 +360,17 @@
 				50A2B8C31C6CA6C500053F2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		50A2B8B61C6CA6C500053F2C /* SimpleCoreDataApp.xcdatamodeld */ = {
+		50FD5FD51C6E013E0099DEFA /* SimpleCoreDataApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				50A2B8B71C6CA6C500053F2C /* SimpleCoreDataApp.xcdatamodel */,
+				50FD5FD61C6E013E0099DEFA /* SimpleCoreDataApp.xcdatamodel */,
 			);
-			currentVersion = 50A2B8B71C6CA6C500053F2C /* SimpleCoreDataApp.xcdatamodel */;
+			currentVersion = 50FD5FD61C6E013E0099DEFA /* SimpleCoreDataApp.xcdatamodel */;
 			path = SimpleCoreDataApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  SimpleCoreDataApp
 //
 //  Created by v.y.ignatov on 11/02/2016.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TableViewController : UITableViewController
 
 @end
-
